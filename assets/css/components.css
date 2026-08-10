@@ -668,17 +668,25 @@
 .contact-info-list {
   display: flex;
   flex-direction: column;
-  gap: var(--space-6);
+  gap: var(--space-5);
 }
 
 .contact-info-item {
   display: flex;
   gap: var(--space-4);
+  align-items: flex-start;
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.contact-info-item:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
 .contact-info-icon {
-  width: 44px;
-  height: 44px;
+  width: 42px;
+  height: 42px;
   flex-shrink: 0;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border-subtle);
@@ -689,16 +697,41 @@
 }
 
 .contact-info-icon svg {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 }
 
 .contact-info-item h4 {
   margin-bottom: var(--space-1);
+  font-size: var(--fs-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
 }
 
-.contact-info-item p {
+.contact-info-item p,
+.contact-info-link {
   font-size: var(--fs-sm);
+  color: var(--text-primary);
+}
+
+.contact-info-link {
+  text-decoration: none;
+}
+
+.contact-info-link:hover {
+  color: var(--accent-cyan);
+}
+
+.contact-whatsapp-btn {
+  margin-top: var(--space-1);
+  padding: 0.5rem 0.8rem;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ---------- Filtros (cursos / proyectos) ---------- */
