@@ -99,7 +99,7 @@
       <div class="content-grid--2col" style="display:grid;gap:var(--space-16);align-items:start;">
         <div>
           <h2 style="text-transform:uppercase;margin-bottom:var(--space-6);font-size:var(--fs-2xl);">Escríbenos</h2>
-          <form id="contact-form" class="form-grid" novalidate>
+          <form id="contact-form" class="form-grid" action="https://formsubmit.co/opencircuits.lab@gmail.com" method="POST" novalidate>
             <div class="form-row">
               <div class="field">
                 <label for="name">Nombre</label>
@@ -131,6 +131,8 @@
               <span class="field-hint">Cuéntanos brevemente qué necesitas.</span>
             </div>
 
+            <input type="hidden" name="_subject" value="Nuevo mensaje desde la web de Open Circuits">
+            <input type="hidden" name="_captcha" value="false">
             <button type="submit" class="btn btn--primary btn--block">Enviar mensaje</button>
             <p class="form-status" role="status" aria-live="polite"></p>
           </form>
