@@ -257,17 +257,18 @@
 }
 
 .footer-brand p {
-  margin-top: var(--space-3);
-  font-size: var(--fs-sm);
+  margin-top: var(--space-2);
+  font-size: 0.8rem;
   max-width: 30ch;
+  line-height: 1.5;
 }
 
 .footer-col h4 {
-  font-size: var(--fs-sm);
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-primary);
-  margin-bottom: var(--space-4);
+  margin-bottom: var(--space-3);
 }
 
 .footer-col ul {
@@ -278,7 +279,7 @@
 
 .footer-col a,
 .footer-col p {
-  font-size: var(--fs-sm);
+  font-size: 0.8rem;
   color: var(--text-secondary);
 }
 
@@ -317,8 +318,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: var(--space-6);
-  font-size: var(--fs-xs);
+  padding-top: var(--space-4);
+  font-size: 0.7rem;
   color: var(--text-muted);
   flex-wrap: wrap;
   gap: var(--space-3);
