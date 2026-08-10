@@ -668,14 +668,14 @@
 .contact-info-list {
   display: flex;
   flex-direction: column;
-  gap: var(--space-5);
+  gap: var(--space-3);
 }
 
 .contact-info-item {
   display: flex;
-  gap: var(--space-4);
+  gap: var(--space-3);
   align-items: flex-start;
-  padding-bottom: var(--space-3);
+  padding-bottom: var(--space-2);
   border-bottom: 1px solid var(--border-subtle);
 }
 
@@ -685,8 +685,8 @@
 }
 
 .contact-info-icon {
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
   flex-shrink: 0;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border-subtle);
@@ -697,13 +697,13 @@
 }
 
 .contact-info-icon svg {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
 }
 
 .contact-info-item h4 {
-  margin-bottom: var(--space-1);
-  font-size: var(--fs-sm);
+  margin-bottom: 0.15rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--text-secondary);
@@ -711,7 +711,7 @@
 
 .contact-info-item p,
 .contact-info-link {
-  font-size: var(--fs-sm);
+  font-size: 0.9rem;
   color: var(--text-primary);
 }
 
